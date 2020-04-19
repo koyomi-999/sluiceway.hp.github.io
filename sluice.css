@@ -9,24 +9,29 @@ body{
   background-color: rgb(216, 216, 216);
   
 }
-
+li{
+  list-style: none;
+}
 .tw-icon{
-  
+  display: inline-block;
   width: 50px;
   height: 50px;
-  margin:14px 0 0 1190px ;
+  margin:14px 0 0 0 ;
   background-color: rgb(46, 161, 255);
   border-radius: 25px;
-  position: fixed;
-  z-index: 10;
+ 
+
+  
 }
 .tw-icon:hover{
  background-color:rgb(0, 132, 255) ;
 }
 .h-tw{
-  margin:13px 0 0 14px;
-  font-size: 25px;
+  position: absolute;
+  transform: translate(50%,50%);
   color: white;
+  font-size: 25px;
+
 }
 
 .c-h1{
@@ -69,7 +74,7 @@ body{
   font-family: "Consolas";
   margin-right:35px; 
   float: left;
-  list-style: none;
+  
   cursor: pointer;
 }
 .in-li:hover{
