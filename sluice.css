@@ -14,7 +14,6 @@ body{
   
   width: 50px;
   height: 50px;
-  
   margin:14px 0 0 1190px ;
   background-color: rgb(46, 161, 255);
   border-radius: 25px;
@@ -91,7 +90,7 @@ main{
   
   width: 1260px;
   height: 500px;
-  background-image: url("https://user-images.githubusercontent.com/62170496/79692220-e6645480-829e-11ea-87ba-f40939a074c7.jpg");
+  background-image: url(sluice.img/集合1.jpg);
   background-size: cover;
 }
 .img-text{
@@ -136,7 +135,7 @@ h2,h3,h4{
   margin-right: 10px;
   width: 200px;
   height: 300px;
-  background-image: url("https://user-images.githubusercontent.com/62170496/79691760-45749a00-829c-11ea-9ac5-87b15de6d13e.jpg");
+  background-image: url("sluice.img/針谷.jpg");
   background-size: cover;
   float: left;
 }
@@ -149,7 +148,7 @@ h2,h3,h4{
   margin-right: 10px;
   width: 200px;
   height: 300px;
-  background-image: url("https://user-images.githubusercontent.com/62170496/79691862-d3508500-829c-11ea-8bab-bfa6d18ee54c.jpg");
+  background-image: url("sluice.img/遠井.jpg");
   background-size: cover;
   float: left;
 }
@@ -202,5 +201,4 @@ h2,h3,h4{
 }
 .btn:hover{
   opacity: 1.0;
-  
 }
